@@ -1,0 +1,57 @@
+
+.jumbotron {
+    background-color: #e6e6e6;
+    position: relative;
+    width: 100%;
+}
+
+
+.jumbotron .overlay {
+    background: linear-gradient(#333, black);
+    position: absolute;
+    opacity: 0.5;
+    z-index: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.jumbotron .background-image {
+    height: 100%;
+    background-image: url("../images/93825-004-A21EC811.jpg");
+    background-size: cover;
+}
+
+
+h1 {
+    color: red;
+    font-size: 54px;
+}
+
+h4 {
+    color: red;
+    font-size: 42px;
+}
+
+.navbar {
+    background-color: #b3ecff;
+}
+
+.btn.scrape-new {
+    color: red;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.img {
+    width:100%;
+    height: auto;
+}
+
+.btn.save {
+    right:5px;
+}
